@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #title{
+    flex-direction: column;
+    line-height: 10px;
+  }
+  
+  li{
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  a{
+    color: white;
+  }
+  
+  a:hover{
+    color: rgb(14, 201, 14);
+    transition: 0.3s all;
+  }
+  
+  #inscreva-se-btn{
+    border: 2px solid rgb(14, 201, 33);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  #inscreva-se-btn:hover{
+    background-color: rgb(14, 201, 20);
+    color: white;
+  }
+
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgb(255, 253, 253);
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.treino {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #3a3131;
+}
+
+.exercicio {
+    margin-bottom: 10px;
+}
+
+.exercicio strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.exercicio p {
+    margin: 0;
+}
+
+.repeticoes {
+    color: #bebebe;
+    font-size: 14px;
+}
